@@ -1,0 +1,16 @@
+﻿<Window x:Class="TournamentsWPF.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TournamentsWPF"
+        mc:Ignorable="d"
+        Title="Меню" Height="283.824" Width="356.053"
+        ResizeMode="NoResize" Background="#FFE0E8F5"
+        >
+    <Grid Margin="0,0,4,0">
+        <Button x:Name="CreateTournamentButton" Content="Создать турнир" HorizontalAlignment="Left" Margin="107,72,0,0" VerticalAlignment="Top" Width="143" Height="34" Click="CreateTournamentButton_Click" FontSize="16"/>
+        <Button x:Name="TournamentInfoButton" Content="Отчет по турниру" HorizontalAlignment="Left" Margin="107,137,0,0" VerticalAlignment="Top" Width="143" Height="34" Click="TournamentInfoButton_Click" FontSize="16"/>
+
+    </Grid>
+</Window>

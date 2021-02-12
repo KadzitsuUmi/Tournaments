@@ -1,0 +1,91 @@
+﻿<Window x:Class="TournamentsWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TournamentsWPF"
+        mc:Ignorable="d"
+        Title="Турнирная сетка" Height="779.805" Width="1468.184"
+        ResizeMode="NoResize">
+    <Grid Background="#FFE0E8F5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="107*"/>
+            <ColumnDefinition Width="255*"/>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="998*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TournamentName" HorizontalAlignment="Left" Height="23" Margin="268,38,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="team1" HorizontalAlignment="Left" Height="23" Margin="21.5,91,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="122,36,0,0" TextWrapping="Wrap" Text="Название турнира:" VerticalAlignment="Top" Grid.Column="4" FontSize="16"/>
+        <TextBox x:Name="team2" HorizontalAlignment="Left" Height="23" Margin="21.5,114,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team3" HorizontalAlignment="Left" Height="23" Margin="21.5,169,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team4" HorizontalAlignment="Left" Height="23" Margin="21.5,192,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team5" HorizontalAlignment="Left" Height="23" Margin="21.5,247,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team6" HorizontalAlignment="Left" Height="23" Margin="21.5,270,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team7" HorizontalAlignment="Left" Height="23" Margin="21.5,328,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team8" HorizontalAlignment="Left" Height="23" Margin="21.5,351,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team9" HorizontalAlignment="Left" Height="23" Margin="21.5,406,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team10" HorizontalAlignment="Left" Height="23" Margin="21.5,429,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team11" HorizontalAlignment="Left" Height="23" Margin="21.5,484,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team12" HorizontalAlignment="Left" Height="23" Margin="21.5,507,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team13" HorizontalAlignment="Left" Height="23" Margin="21.5,562,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team14" HorizontalAlignment="Left" Height="23" Margin="21.5,585,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team15" HorizontalAlignment="Left" Height="23" Margin="21.5,640,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="team16" HorizontalAlignment="Left" Height="23" Margin="21.5,663,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="point1" HorizontalAlignment="Left" Height="23" Margin="141.5,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point2" HorizontalAlignment="Left" Height="23" Margin="141.5,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point3" HorizontalAlignment="Left" Height="23" Margin="141.5,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point4" HorizontalAlignment="Left" Height="23" Margin="141.5,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point5" HorizontalAlignment="Left" Height="23" Margin="141.5,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point6" HorizontalAlignment="Left" Height="23" Margin="141.5,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point7" HorizontalAlignment="Left" Height="23" Margin="141.5,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point8" HorizontalAlignment="Left" Height="23" Margin="141.5,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point9" HorizontalAlignment="Left" Height="23" Margin="141.5,406,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point10" HorizontalAlignment="Left" Height="23" Margin="141.5,429,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point11" HorizontalAlignment="Left" Height="23" Margin="141.5,484,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point12" HorizontalAlignment="Left" Height="23" Margin="141.5,507,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point13" HorizontalAlignment="Left" Height="23" Margin="141.5,562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point14" HorizontalAlignment="Left" Height="23" Margin="141.5,585,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point15" HorizontalAlignment="Left" Height="23" Margin="141.5,640,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="point16" HorizontalAlignment="Left" Height="23" Margin="141.5,663,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+        <TextBox x:Name="team17" HorizontalAlignment="Left" Height="23" Margin="4,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="team18" HorizontalAlignment="Left" Height="23" Margin="4,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="team19" HorizontalAlignment="Left" Height="23" Margin="4,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="team20" HorizontalAlignment="Left" Height="23" Margin="4,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="team21" HorizontalAlignment="Left" Height="23" Margin="4,445,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="team22" HorizontalAlignment="Left" Height="23" Margin="4,468,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="team23" HorizontalAlignment="Left" Height="23" Margin="4,601,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="team24" HorizontalAlignment="Left" Height="23" Margin="4,624,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="point17" HorizontalAlignment="Left" Height="23" Margin="78,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point18" HorizontalAlignment="Left" Height="23" Margin="78,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point19" HorizontalAlignment="Left" Height="23" Margin="78,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point20" HorizontalAlignment="Left" Height="23" Margin="78,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point21" HorizontalAlignment="Left" Height="23" Margin="78,445,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point22" HorizontalAlignment="Left" Height="23" Margin="78,468,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point23" HorizontalAlignment="Left" Height="23" Margin="78,601,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point24" HorizontalAlignment="Left" Height="23" Margin="78,624,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="team25" HorizontalAlignment="Left" Height="23" Margin="250,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="team26" HorizontalAlignment="Left" Height="23" Margin="250,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="team27" HorizontalAlignment="Left" Height="23" Margin="250,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="team28" HorizontalAlignment="Left" Height="23" Margin="250,546,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="point25" HorizontalAlignment="Left" Height="23" Margin="370,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" Grid.Column="4"/>
+        <TextBox x:Name="point26" HorizontalAlignment="Left" Height="23" Margin="370,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" Grid.Column="4"/>
+        <TextBox x:Name="point27" HorizontalAlignment="Left" Height="23" Margin="370,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" Grid.Column="4"/>
+        <TextBox x:Name="point28" HorizontalAlignment="Left" Height="23" Margin="370,546,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" Grid.Column="4"/>
+        <TextBox x:Name="team29" HorizontalAlignment="Left" Height="23" Margin="506,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="team30" HorizontalAlignment="Left" Height="23" Margin="506,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="point29" HorizontalAlignment="Left" Height="23" Margin="626,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point30" HorizontalAlignment="Left" Height="23" Margin="626,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="team31" HorizontalAlignment="Left" Height="23" Margin="798,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <Button x:Name="save_Button" Content="Сохранить команды" HorizontalAlignment="Left" Margin="760,647,0,0" VerticalAlignment="Top" Width="158" Height="39" Click="save_Button_Click" Grid.Column="4" FontSize="16"/>
+        <TextBox x:Name="team29copy" HorizontalAlignment="Left" Height="23" Margin="506,420,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="team30copy" HorizontalAlignment="Left" Height="23" Margin="506,443,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBox x:Name="point29copy" HorizontalAlignment="Left" Height="23" Margin="626,420,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="point30copy" HorizontalAlignment="Left" Height="23" Margin="626,443,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Grid.Column="4"/>
+        <TextBox x:Name="team31copy" HorizontalAlignment="Left" Height="23" Margin="798,429,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="4"/>
+        <TextBlock Grid.Column="4" HorizontalAlignment="Left" Margin="798,286,0,0" TextWrapping="Wrap" Text="Первое место" VerticalAlignment="Top" Width="120" Height="23" FontSize="16"/>
+        <TextBlock Grid.Column="4" HorizontalAlignment="Left" Margin="798,403,0,0" TextWrapping="Wrap" Text="Третье место" VerticalAlignment="Top" Height="26" Width="120" FontSize ="16"/>
+
+    </Grid>
+</Window>
